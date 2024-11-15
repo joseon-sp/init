@@ -19,4 +19,5 @@ if not url or not key:
     print("Supabase URL or Key not found in config.json.")
     exit(1)
 
+BASE_URL = url
 supabase = create_client(url, key)
